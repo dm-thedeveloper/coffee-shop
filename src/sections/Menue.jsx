@@ -16,7 +16,7 @@ function Menue() {
 function Discover({}) {
   return (
     <>
-      <div className="font-commonFont md:mt-0 mt-11 relative flex items-center min-h-[350px] ">
+      <div className="font-commonFont md:pt-0 pt-11 relative flex items-center min-h-[350px] ">
         {/* Conetet or Left */}
         <div className="w-full md:w-1/2 h-full flex justify-center flex-col pl-7 md:pl-16">
           <h1 className="text-cofeeColor text-[30px] md:text-[35px] mb-5">
