@@ -8,7 +8,7 @@ function NavBar() {
   const toggleMenue = () => setisOpen(!isOpen);
   return (
     <>
-      <header className="flex z-40 fixed top-0 left-0 right-0 items-center justify-between h-[40px] w-[90%] mx-auto mt-3  ">
+      <header className="flex backdrop-blur-sm md:border-l-2  border-l-cofeeColor px-2 md:px-4 py-2 rounded-full z-40 fixed top-0 left-0 right-0 items-center justify-between h-[40px] w-[90%] mx-auto mt-3  ">
         {/* Logo */}
         <h1 className="text-2xl font-stylishFont text-white">Bean Scene</h1>
 

@@ -8,10 +8,10 @@ export default {
         yeloshColor: "var(--yelosh-color)",
         blackColor: "var(--black-color)",
       },
-      fontFamily:{
-         stylishFont: "var(--stylish-font)",
+      fontFamily: {
+        stylishFont: "var(--stylish-font)",
         commonFont: "var(--commin-font)",
-      }
+      },
     },
   },
   plugins: [],
