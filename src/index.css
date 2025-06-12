@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Clicker Script";
+  src: url("./assets//Fonts/Cliker_Script/ClickerScript-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Play Fair Display";
+  src: url("./assets/Fonts//Play_Fair_Font/PlayfairDisplay-Regular.ttf");
+}
+
+:root {
+  --cofee-color: #603809;
+  --yelosh-color: #f9c06a;
+  --black-color: #707070;
+  --stylish-font: "Clicker Script";
+  --commin-font: "Play Fair Display";
+}
+
+.ul-li::after {
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: var(--cofee-color);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 15px;
+  transition: all 0.3s linear;
+}
+.ul-li:hover::after {
+  width: 100%;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to left, #1e1e1e00 0%, #1e1e1e 100%);
+  position: absolute;
+  inset: 0;
+}
+
+.herat-beat-animation{
+  -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+	        animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
