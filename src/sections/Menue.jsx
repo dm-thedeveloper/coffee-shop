@@ -2,14 +2,21 @@ import React from "react";
 import beans from "../assets/menu_section/beans.png";
 import coffee_blast from "../assets/menu_section/coffee_blast.png";
 import { menuCards } from "../constants";
+import About from "./About";
+
 // FFFEFC
 
 function Menue() {
   return (
     <>
-      <section  className="bg-[#FFFEFC]">
+      <section  className="bg-[#FFFEFC] absolute">
+
+
         <Discover />
         <MenueSection />
+        <About/>
+
+        {/* <img className="absolute right-0 rotate-[360deg]"  src={coffee_blast} alt="Cofee Blast Image " /> */}
       </section>
     </>
   );
@@ -18,7 +25,7 @@ function Menue() {
 function Discover({}) {
   return (
     <>
-      <div className="font-commonFont md:pt-0  pt-11 relative flex items-center min-h-[350px] ">
+      <div className="font-commonFont md:pt-0  pt-11 relative flex items-center  min-h-[350px] ">
         {/* Conetet or Left */}
         <div className="w-full md:w-1/2 h-full flex justify-center flex-col pl-7 md:pl-16">
           <h1 className="text-cofeeColor text-[30px] md:text-[35px] mb-5">
@@ -54,9 +61,10 @@ function Discover({}) {
 }
 
 function MenueSection({}) {
+
   return (
     <>
-      <section id="menue" className="bg-[#FFFEFC] mt-[70px] font-commonFont pb-10">
+      <section id="menue" className="bg-[#FFFEFC] mt-[70px] font-commonFont">
         <h1 className="text-cofeeColor  text-center text-[30px] md:text-[35px] mb-5">
           Enjoy a new blend of coffee style{" "}
         </h1>

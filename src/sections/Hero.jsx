@@ -1,7 +1,7 @@
-import React from "react";
 import landingPoster from "../assets/landing_poster.png";
 
 function Hero() {
+  
   return (
     <>
       <section
