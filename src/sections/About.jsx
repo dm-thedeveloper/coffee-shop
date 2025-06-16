@@ -4,7 +4,7 @@ import { Features } from "../constants";
 function About() {
   return (
     <>
-      <section className=" w-full  bg-white pt-16 text-white">
+      <section id="about" className=" w-full  bg-white pt-16 text-white">
         <h1 className="text-cofeeColor font-commonFont  text-center text-[25px] sm:text-[30px] md:text-[35px] mb-5">
           Enjoy a new blend of coffee style{" "}
         </h1>
@@ -14,7 +14,7 @@ function About() {
         </p>
         {/* Grid */}
 
-        <div id="about" className="grid pb-7 sm:w-[90%] gap-4 sm:gap-4 md:gap-8 md:w-[90%]  mt-5 mx-auto grid-cols-2 sm:grid-cols-3 md:grid-cols-4 place-items-center text-cofeeColor ">
+        <div  className="grid pb-7 sm:w-[90%] gap-4 sm:gap-4 md:gap-8 md:w-[90%]  mt-5 mx-auto grid-cols-2 sm:grid-cols-3 md:grid-cols-4 place-items-center text-cofeeColor ">
           <Cards />
         </div>
 

@@ -3,6 +3,8 @@ import beans from "../assets/menu_section/beans.png";
 import coffee_blast from "../assets/menu_section/coffee_blast.png";
 import { menuCards } from "../constants";
 import About from "./About";
+import Order from "./Order";
+import Testimonal from "./Testimonal";
 
 // FFFEFC
 
@@ -15,6 +17,8 @@ function Menue() {
         <Discover />
         <MenueSection />
         <About/>
+        <Order/>
+        <Testimonal/>
 
         {/* <img className="absolute right-0 rotate-[360deg]"  src={coffee_blast} alt="Cofee Blast Image " /> */}
       </section>

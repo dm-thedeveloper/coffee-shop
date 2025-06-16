@@ -12,6 +12,7 @@ export default {
         stylishFont: "var(--stylish-font)",
         commonFont: "var(--commin-font)",
       },
+      
     },
   },
   plugins: [],
