@@ -5,6 +5,7 @@ import { menuCards } from "../constants";
 import About from "./About";
 import Order from "./Order";
 import Testimonal from "./Testimonal";
+import Contact_and_Footer from "./Contact_and_Footer";
 
 // FFFEFC
 
@@ -12,13 +13,13 @@ function Menue() {
   return (
     <>
       <section  className="bg-[#FFFEFC] absolute">
-
-
+        
         <Discover />
         <MenueSection />
         <About/>
         <Order/>
         <Testimonal/>
+        <Contact_and_Footer/>
 
         {/* <img className="absolute right-0 rotate-[360deg]"  src={coffee_blast} alt="Cofee Blast Image " /> */}
       </section>

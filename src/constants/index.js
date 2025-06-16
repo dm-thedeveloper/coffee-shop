@@ -90,44 +90,46 @@ export const Features = [
   },
 ];
 
-
-const generateRandomNumber = (max = 99 )=> Math.floor(Math.random()*max);
+const generateRandomNumber = (max = 99) => Math.floor(Math.random() * max);
 
 export const testimonalData = [
-
   {
     id: 0,
-    name: "Ali Raza",
+    name: "James Smith",
     city: "Saddar , Karachi",
     avatar: `https://randomuser.me/api/portraits/men/${generateRandomNumber()}.jpg`,
-    feedaback: "Bean Seen coffee has completely changed my mornings. The aroma and taste are just perfect!",
+    feedaback:
+      "Bean Seen coffee has completely changed my mornings. The aroma and taste are just perfect!",
   },
   {
     id: 1,
-    name: "Hira Khan",
+    name: "Sophia Hall",
     city: "Defence , Karachi",
     avatar: `https://randomuser.me/api/portraits/women/${generateRandomNumber()}.jpg`,
-    feedaback: "I’ve tried many brands, but Bean Seen feels premium and fresh. Highly recommended!",
+    feedaback:
+      "I’ve tried many brands, but Bean Seen feels premium and fresh. Highly recommended!",
   },
   {
     id: 2,
-    name: "Usman Javed",
+    name: "William Brown",
     city: "Gulshan-e-Iqbal , Karachi",
     avatar: `https://randomuser.me/api/portraits/men/${generateRandomNumber()}.jpg`,
     feedaback: "Smooth flavor and rich body—Bean Seen is my go-to coffee now!",
   },
   {
     id: 3,
-    name: "Fatima Noor",
+    name: "Ava Young",
     city: "Nazimabad , Karachi",
     avatar: `https://randomuser.me/api/portraits/women/${generateRandomNumber()}.jpg`,
-    feedaback: "The beans are fresh and perfectly roasted. Great quality for the price.",
+    feedaback:
+      "The beans are fresh and perfectly roasted. Great quality for the price.",
   },
   {
     id: 4,
-    name: "Zeeshan Ahmed",
+    name: "David Wilson",
     city: "Clifton , Karachi",
     avatar: `https://randomuser.me/api/portraits/men/${generateRandomNumber()}.jpg`,
-    feedaback: "Bean Seen is the best local coffee I’ve ever had. Proud to support Pakistani products!",
+    feedaback:
+      "Bean Seen is the best local coffee I’ve ever had. Proud to support Pakistani products!",
   },
 ];

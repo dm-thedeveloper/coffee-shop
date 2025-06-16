@@ -1,5 +1,5 @@
 import React from "react";
-import { NavBar , Hero , Menue, About, Order, Testimonal} from "./sections";
+import { NavBar , Hero , Menue, About, Order, Testimonal, Contact_and_Footer} from "./sections";
 import "@fortawesome/fontawesome-free/css/all.css";
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
         {/* <Order/> */}
         {/* <About/> */}
         {/* <Testimonal/> */}
+        {/* <Contact_and_Footer/> */}
       </main>
     </>
   );
